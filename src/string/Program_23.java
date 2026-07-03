@@ -1,8 +1,7 @@
 package string;
-//WAJP to take a String input and print the sum of all the numeric characters in the String.
-
+//WAJP to take a String input and count all numeric characters in the String.
 import java.util.Scanner;
-public class Program_22 {
+public class Program_23 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
