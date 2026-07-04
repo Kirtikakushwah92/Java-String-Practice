@@ -13,7 +13,21 @@ public class Program_25 {
 
 	}
 	public static int countNumberOfWords(String s) {
-		
+		boolean isWord= false;
+		int count =0;
+		for(int i=0;i<s.length();i++) {
+			char ch = s.charAt(i);
+			if(ch != ' ') {
+				if(!isWord) {
+					count++;
+					isWord=true;
+				}
+			}
+			else {
+				isWord=false;
+			}
+		}
+		return count;
 	}
 	
 
